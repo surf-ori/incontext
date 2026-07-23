@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+cd "$(dirname "$0")/.."
 
 SRC="trunk/Source/Scripts"
 OUT="docs/visualizer.js"
