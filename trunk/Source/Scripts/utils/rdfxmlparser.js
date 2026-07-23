@@ -30,7 +30,6 @@
         $.ajax({
           url: dataUrl,
           dataType: ($.browser.msie) ? "text" : "xml",
-          async: false,
           success: function(data) {
             var xml;
             if ($.browser.msie) {
