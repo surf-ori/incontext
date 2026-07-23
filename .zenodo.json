@@ -1,0 +1,47 @@
+{
+  "title": "rdf-InContext: Client-side RDF Visualiser for Enhanced Publications",
+  "description": "<p>rdf-InContext is a lightweight, client-side JavaScript visualisation widget for <a href=\"https://en.wikipedia.org/wiki/Enhanced_publication\">Enhanced Publications</a> — compound scholarly objects that link publications to research datasets, images, and other resources via <a href=\"https://www.openarchives.org/ore/\">OAI-ORE</a>/RDF.</p><p>Originally developed in 2011–2013 by <a href=\"https://www.surf.nl/\">SURFfoundation</a> as part of the SURFshare programme, rdf-InContext was deployed in production in the <a href=\"https://www.narcis.nl/\">NARCIS</a> Dutch national research portal and the University of Twente ESCAPE project. It renders an interactive cloud-style view of an OAI-ORE aggregation graph, letting readers navigate between related resources by clicking. No server is required for the visualisation: only the RDF data endpoint is fetched remotely.</p><p>The visualiser is embedded in a host page with a single JavaScript include and a JSON configuration block. Data can be served as RDF/XML or RDF/JSON; a schema file defines property labels, type icons, and OWL inverse/symmetric relations. Default base class types cover OAI-ORE Aggregation, FOAF (Person, Document, Image, Organisation, Project), SKOS Concept, and OWL Thing.</p><p>This repository revives and modernises the original source for GitHub Pages hosting and long-term archival under the <a href=\"https://github.com/surf-ori\">surf-ori</a> organisation.</p>",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "eupl-1.2",
+  "creators": [
+    {
+      "name": "van der Feesten, Maurice",
+      "affiliation": "SURF"
+    }
+  ],
+  "keywords": [
+    "Enhanced Publications",
+    "OAI-ORE",
+    "RDF",
+    "visualisation",
+    "JavaScript",
+    "linked data",
+    "scholarly communication",
+    "NARCIS",
+    "SURFshare",
+    "DRIVER II",
+    "open science"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/mosart/rdf-InContext",
+      "relation": "isDerivedFrom",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "http://hdl.handle.net/1854/LU-1942496",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-book",
+      "scheme": "url"
+    }
+  ],
+  "custom": {
+    "code:codeRepository": "https://github.com/surf-ori/incontext",
+    "code:programmingLanguage": [
+      {"id": "javascript", "title": {"en": "JavaScript"}}
+    ],
+    "code:developmentStatus": {"id": "wip", "title": {"en": "Work in progress"}}
+  }
+}

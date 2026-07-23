@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "rdf-InContext: Client-side RDF Visualiser for Enhanced Publications"
+type: software
+authors:
+  - family-names: van der Feesten
+    given-names: Maurice
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: add your ORCID
+    affiliation: SURF
+version: "1.1"
+date-released: "2026-07-23"
+# doi: 10.5281/zenodo.XXXXXXX  # TODO: add concept DOI after first Zenodo publish
+url: "https://github.com/surf-ori/incontext"
+repository-code: "https://github.com/surf-ori/incontext"
+license: EUPL-1.2
+keywords:
+  - Enhanced Publications
+  - OAI-ORE
+  - RDF
+  - visualisation
+  - JavaScript
+  - linked data
+  - scholarly communication
+  - NARCIS
+  - SURFshare
+  - open science
+abstract: >-
+  rdf-InContext is a lightweight, client-side JavaScript visualisation widget
+  for Enhanced Publications — compound scholarly objects that link publications
+  to research datasets, images, and other resources via OAI-ORE/RDF.
+  Originally developed in 2011–2013 by SURFfoundation as part of the SURFshare
+  programme, it was deployed in the NARCIS Dutch national research portal and
+  the University of Twente ESCAPE project. This repository revives and
+  modernises the original source for GitHub Pages hosting and long-term
+  archival.
+references:
+  - type: software
+    title: "rdf-InContext (original source repository)"
+    url: "https://github.com/mosart/rdf-InContext"
+    authors:
+      - family-names: van der Feesten
+        given-names: Maurice
+  - type: book
+    title: >-
+      Emerging Standards for Enhanced Publications and Repository Technology:
+      Survey on Technology
+    authors:
+      - family-names: van Godtsenhoven
+        given-names: Karen
+      - family-names: Karstensen Elbæk
+        given-names: Mikael
+      - family-names: Schmeltz Pedersen
+        given-names: Gert
+      - family-names: Sierman
+        given-names: Barbara
+      - family-names: Bijsterbosch
+        given-names: Magchiel
+      - family-names: Hochstenbach
+        given-names: Patrick
+      - family-names: Russell
+        given-names: Rosemary
+      - family-names: van der Feesten
+        given-names: Maurice
+    year: 2009
+    publisher: "Amsterdam University Press"
+    isbn: "978-90-8964-189-2"
+    url: "http://hdl.handle.net/1854/LU-1942496"
