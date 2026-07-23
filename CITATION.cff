@@ -7,7 +7,7 @@ authors:
     given-names: Maurice
     orcid: "https://orcid.org/0000-0001-6397-4759"
     affiliation: SURF
-version: "1.1"
+version: "1.2"
 date-released: "2026-07-23"
 doi: 10.5281/zenodo.21511995
 url: "https://github.com/surf-ori/incontext"

@@ -1,6 +1,6 @@
 {
   "title": "rdf-InContext: Client-side RDF Visualiser for Enhanced Publications",
-  "description": "<p>rdf-InContext is a lightweight, client-side JavaScript visualisation widget for <a href=\"https://en.wikipedia.org/wiki/Enhanced_publication\">Enhanced Publications</a> — compound scholarly objects that link publications to research datasets, images, and other resources via <a href=\"https://www.openarchives.org/ore/\">OAI-ORE</a>/RDF.</p><p>Originally developed in 2011–2013 by <a href=\"https://www.surf.nl/\">SURFfoundation</a> as part of the SURFshare programme, rdf-InContext was deployed in production in the <a href=\"https://www.narcis.nl/\">NARCIS</a> Dutch national research portal and the University of Twente ESCAPE project. It renders an interactive cloud-style view of an OAI-ORE aggregation graph, letting readers navigate between related resources by clicking. No server is required for the visualisation: only the RDF data endpoint is fetched remotely.</p><p>The visualiser is embedded in a host page with a single JavaScript include and a JSON configuration block. Data can be served as RDF/XML or RDF/JSON; a schema file defines property labels, type icons, and OWL inverse/symmetric relations. Default base class types cover OAI-ORE Aggregation, FOAF (Person, Document, Image, Organisation, Project), SKOS Concept, and OWL Thing.</p><p>This repository revives and modernises the original source for GitHub Pages hosting and long-term archival under the <a href=\"https://github.com/surf-ori\">surf-ori</a> organisation.</p>",
+  "description": "<p>rdf-InContext is a lightweight, client-side JavaScript visualisation widget for <a href=\"https://en.wikipedia.org/wiki/Enhanced_publication\">Enhanced Publications</a> — compound scholarly objects that link publications to research datasets, images, and other resources via <a href=\"https://www.openarchives.org/ore/\">OAI-ORE</a>/RDF.</p><p>Originally developed in 2011–2013 by <a href=\"https://www.surf.nl/\">SURFfoundation</a> as part of the SURFshare programme, rdf-InContext was deployed in production in the <a href=\"https://www.narcis.nl/\">NARCIS</a> Dutch national research portal and the University of Twente ESCAPE project. It renders an interactive cloud-style view of an OAI-ORE aggregation graph, letting readers navigate between related resources by clicking. No server is required for the visualisation: only the RDF data endpoint is fetched remotely.</p><p>The visualiser is embedded in a host page with a single JavaScript include and a JSON configuration block. Data can be served as RDF/XML or RDF/JSON; a schema file defines property labels, type icons, and OWL inverse/symmetric relations. Default base class types cover OAI-ORE Aggregation, FOAF (Person, Document, Image, Organisation, Project), SKOS Concept, and OWL Thing.</p><p>This release (v1.2) revives the original source under the <a href=\"https://github.com/surf-ori\">surf-ori</a> organisation with a live GitHub Pages demo at <a href=\"https://surf-ori.github.io/incontext/\">https://surf-ori.github.io/incontext/</a>, a SURF-branded wrapper page explaining Enhanced Publications, and a bash-based build script replacing the original Ant/Java toolchain. The deprecated synchronous XHR (<code>async: false</code>) has been removed for compatibility with modern browsers.</p>",
   "upload_type": "software",
   "access_right": "open",
   "license": "eupl-1.2",
@@ -36,6 +36,12 @@
       "relation": "isDocumentedBy",
       "resource_type": "publication-book",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://surf-ori.github.io/incontext/",
+      "relation": "isSupplementedBy",
+      "resource_type": "other",
+      "scheme": "url"
     }
   ],
   "custom": {
@@ -43,6 +49,6 @@
     "code:programmingLanguage": [
       {"id": "javascript", "title": {"en": "JavaScript"}}
     ],
-    "code:developmentStatus": {"id": "wip", "title": {"en": "Work in progress"}}
+    "code:developmentStatus": {"id": "active", "title": {"en": "Active"}}
   }
 }
