@@ -9,7 +9,7 @@ authors:
     affiliation: SURF
 version: "1.1"
 date-released: "2026-07-23"
-# doi: 10.5281/zenodo.XXXXXXX  # TODO: add concept DOI after first Zenodo publish
+doi: 10.5281/zenodo.21511995
 url: "https://github.com/surf-ori/incontext"
 repository-code: "https://github.com/surf-ori/incontext"
 license: EUPL-1.2

@@ -1,6 +1,8 @@
 rdf-InContext
 =============
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21511995.svg)](https://doi.org/10.5281/zenodo.21511995)
+
 InContext let's you navigate through RDF relations in a smooth and understandable way. The objects in an enhanced publication are presented nice and clean like one reads a news paper to discover interesting material, and click on it to read details. The visualiser is playful, friendly interfaced, usable and creates information scent for more discovery of information.
 
 [![example image of the RDF-InContext Visualiser](http://wiki.surffoundation.nl/download/thumbnails/10617083/escvis-snip-curl.jpg)](http://www.screencast.com/t/uMI07PsVCfm)
