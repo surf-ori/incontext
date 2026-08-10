@@ -8,7 +8,7 @@ rdf-InContext
 
 InContext lets you navigate through RDF relations in a smooth and understandable way. The objects in an Enhanced Publication are presented like a newspaper cloud — click any item to move it to the centre and explore its related resources. The visualiser is lightweight, friendly, and creates information scent for discovery.
 
-[![example image of the RDF-InContext Visualiser](http://wiki.surffoundation.nl/download/thumbnails/10617083/escvis-snip-curl.jpg)](https://surf-ori.github.io/incontext/)
+[![example image of the RDF-InContext Visualiser](enhanced-publication-visualisation-example.png)](https://surf-ori.github.io/incontext/)
 
 ## About
 
