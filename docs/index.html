@@ -150,7 +150,7 @@
     </p>
 
     <h2>About this demo</h2>
-    <p>
+    <p id="demo-about">
       The graph below shows an Enhanced Publication from the
       <a href="http://escape.utwente.nl/">ESCAPE project</a> at the University of Twente.
       It describes the <em>Physics of Fluids</em> research group and its connected publications, datasets,
@@ -177,9 +177,43 @@
 
   <script src="visualizer.js"></script>
   <script>
-    var app = new VisualizerApp("visualizer_canvas", "http://pof.tnw.utwente.nl/", {
+    // Hidden data set: index.html#john shows the career of John Doove as an Enhanced Publication.
+    // The hash path (#john, #/john, #/john?id=...) is kept while navigating.
+    var isJohn = /^#\/?john(\/|\?|$)/i.test(window.location.hash);
+
+    // Reload when switching between data sets via the address bar
+    window.addEventListener("hashchange", function () {
+      if (/^#\/?john(\/|\?|$)/i.test(window.location.hash) !== isJohn) window.location.reload();
+    });
+
+    var baseClassTypes = {
+      "http://purl.utwente.nl/ns/escape-pubtypes.owl#Publication": "publication",
+      "http://purl.org/dc/dcmitype/MovingImage": "video",
+      "http://purl.utwente.nl/ns/escape-events.owl#Event": "event",
+      "http://purl.utwente.nl/ns/escape-projects.owl#Topic": "topic"
+    };
+    var startObject = "http://pof.tnw.utwente.nl/";
+    var dataUrl = "Example/example_data.rdf";
+
+    if (isJohn) {
+      startObject = "https://orcid.org/0000-0001-8217-2217";
+      dataUrl = "Example/john_data.rdf";
+      baseClassTypes["http://xmlns.com/foaf/0.1/Person"] = "person";
+      baseClassTypes["http://xmlns.com/foaf/0.1/Organization"] = "organization";
+      baseClassTypes["http://xmlns.com/foaf/0.1/Project"] = "project";
+      document.title = "John Doove \u2014 a career in open science | InContext";
+      document.getElementById("demo-about").innerHTML =
+        'The graph below is an Enhanced Publication of the career of ' +
+        '<a href="https://orcid.org/0000-0001-8217-2217">John Doove</a> ' +
+        '(SURF): from content manager at Leiden University Library to team lead SURF Open Science. ' +
+        'It links his career milestones, projects and infrastructures (Publinova, the Innovation Zone ' +
+        'Open Science, BROCCOLI, Enhanced Publications), publications, colleagues and partner ' +
+        'organisations. Click any node to move it to the centre and explore its relations.';
+    }
+
+    var app = new VisualizerApp("visualizer_canvas", startObject, {
       debug: false,
-      dataUrl: "Example/example_data.rdf",
+      dataUrl: dataUrl,
       schemaUrl: "Example/example_schema.json",
       schemaFormat: "application/json",
       titleProperties: [
@@ -196,12 +230,7 @@
       descriptionAnnotationTypeId: "http://purl.org/dc/terms/description",
       imageTypeId: "http://xmlns.com/foaf/0.1/img",
       useHistoryManager: true,
-      baseClassTypes: {
-        "http://purl.utwente.nl/ns/escape-pubtypes.owl#Publication": "publication",
-        "http://purl.org/dc/dcmitype/MovingImage": "video",
-        "http://purl.utwente.nl/ns/escape-events.owl#Event": "event",
-        "http://purl.utwente.nl/ns/escape-projects.owl#Topic": "topic"
-      }
+      baseClassTypes: baseClassTypes
     });
   </script>
 

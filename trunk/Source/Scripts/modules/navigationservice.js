@@ -43,7 +43,8 @@
           else {
             //Set address if history manager is used
             if (sandbox.getConfig("useHistoryManager")) {
-              $.address.value('?id=' + encodeURIComponent(objectId));
+              // keep any path in the hash (e.g. #/john) so host pages can select a data set
+              $.address.value($.address.path().replace(/\/$/, '') + '?id=' + encodeURIComponent(objectId));
             }
             else {
               //Else, load objects

@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated: the career of John Doove (ORCID 0000-0001-8217-2217) as an Enhanced Publication.
+     Shown by index.html#john. Uses the vocabulary of example_schema.json. -->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:ore="http://www.openarchives.org/ore/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:swrc="http://swrc.ontoware.org/ontology#"
+  xmlns:swan="http://swan.mindinformatics.org/ontologies/1.2/discourse-relationships/"
+  xmlns:escape-projects="http://purl.utwente.nl/ns/escape-projects.owl#"
+  xmlns:escape-annotations="http://purl.utwente.nl/ns/escape-annotations.owl#">
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/resourcemap">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+    <dcterms:created>2026-09-29</dcterms:created>
+    <ore:describes rdf:resource="https://surf-ori.github.io/incontext/john/aggregation"/>
+    <dcterms:creator>SURF Open Science team</dcterms:creator>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/aggregation">
+    <rdf:type rdf:resource="http://purl.org/info:eu-repo/semantics/EnhancedPublication"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:title>John Doove — a career in open science</dcterms:title>
+    <dcterms:creator rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <ore:aggregates rdf:resource="https://en.wikipedia.org/wiki/Open_access"/>
+    <ore:aggregates rdf:resource="https://en.wikipedia.org/wiki/Open_science"/>
+    <ore:aggregates rdf:resource="https://en.wikipedia.org/wiki/Enhanced_publication"/>
+    <ore:aggregates rdf:resource="https://en.wikipedia.org/wiki/Open_research_information"/>
+    <ore:aggregates rdf:resource="https://en.wikipedia.org/wiki/Persistent_identifier"/>
+    <ore:aggregates rdf:resource="https://en.wikipedia.org/wiki/FAIR_data"/>
+    <ore:aggregates rdf:resource="https://en.wikipedia.org/wiki/Research_infrastructure"/>
+    <ore:aggregates rdf:resource="https://www.surf.nl/"/>
+    <ore:aggregates rdf:resource="https://www.library.universiteitleiden.nl/"/>
+    <ore:aggregates rdf:resource="https://www.universiteitleiden.nl/"/>
+    <ore:aggregates rdf:resource="https://www.nwo.nl/"/>
+    <ore:aggregates rdf:resource="https://www.openscience.nl/"/>
+    <ore:aggregates rdf:resource="https://www.knowledge-exchange.info/"/>
+    <ore:aggregates rdf:resource="https://www.universiteitenvannederland.nl/"/>
+    <ore:aggregates rdf:resource="https://www.vereniginghogescholen.nl/"/>
+    <ore:aggregates rdf:resource="https://www.ukb.nl/"/>
+    <ore:aggregates rdf:resource="https://www.kb.nl/"/>
+    <ore:aggregates rdf:resource="https://regieorgaan-sia.nl/"/>
+    <ore:aggregates rdf:resource="https://www.utwente.nl/"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/person/leo-waaijers"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/person/marnix-van-bergen"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/person/annemiek-van-der-kuil"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/person/marlon-domingus"/>
+    <ore:aggregates rdf:resource="https://doi.org/10.5281/zenodo.19885633"/>
+    <ore:aggregates rdf:resource="https://doi.org/10.5281/zenodo.8383405"/>
+    <ore:aggregates rdf:resource="https://doi.org/10.5281/zenodo.5836056"/>
+    <ore:aggregates rdf:resource="https://doi.org/10.5281/zenodo.18622300"/>
+    <ore:aggregates rdf:resource="https://zenodo.org/records/15772562"/>
+    <ore:aggregates rdf:resource="https://doi.org/10.5281/zenodo.3454688"/>
+    <ore:aggregates rdf:resource="https://www.universiteitenvannederland.nl/files/publications/Alternatieve%20platformen%20als%20change%20agents%20van%20het%20publiceren%20versie%201.0.pdf"/>
+    <ore:aggregates rdf:resource="https://www.amazon.com/Enhanced-Publications-Research-Repositories-EU-Driver-ebook/dp/B0FTG1DFJ6"/>
+    <ore:aggregates rdf:resource="http://hdl.handle.net/1854/LU-1942496"/>
+    <ore:aggregates rdf:resource="https://www.slideserve.com/kairos/challenges-in-data-publishing-enhanced-publications"/>
+    <ore:aggregates rdf:resource="https://www.slideshare.net/dduin/enhanced-publications-by-john-doove"/>
+    <ore:aggregates rdf:resource="https://groups.google.com/g/oai-ore/c/YJzxZarMjs4"/>
+    <ore:aggregates rdf:resource="https://wiki.surfnet.nl/pages/viewpage.action?pageId=11057404"/>
+    <ore:aggregates rdf:resource="https://delta.tudelft.nl/article/een-nationale-etalage-voor-de-wetenschap"/>
+    <ore:aggregates rdf:resource="https://werkenbij.surf.nl/programmamanager-open-science-john-doove/"/>
+    <ore:aggregates rdf:resource="https://www.surf.nl/en/employee-stories/john-doove-open-access-programme-manager-at-surf"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/project/cream-of-science"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/project/enhanced-publications"/>
+    <ore:aggregates rdf:resource="http://code.google.com/p/surf-escape/"/>
+    <ore:aggregates rdf:resource="https://github.com/surf-ori/incontext"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/project/orcid-nl"/>
+    <ore:aggregates rdf:resource="https://www.hbo-kennisbank.nl/"/>
+    <ore:aggregates rdf:resource="https://www.surf.nl/en/services/surfsharekit"/>
+    <ore:aggregates rdf:resource="https://publinova.nl/en"/>
+    <ore:aggregates rdf:resource="https://www.surf.nl/over/wat-surf-doet/onze-focus-voor-2022-2027/innovatiezones-surf"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/project/open-research-information"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/project/broccoli"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/project/rdnl"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/project/leergang-open-science"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/project/unl-integrative-infrastructures"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/project/public-values-infrastructure"/>
+    <ore:aggregates rdf:resource="https://www.linkedin.com/in/jdoove/#career-2006"/>
+    <ore:aggregates rdf:resource="https://www.linkedin.com/in/jdoove/#career-2009"/>
+    <ore:aggregates rdf:resource="https://www.linkedin.com/in/jdoove/#career-2015"/>
+    <ore:aggregates rdf:resource="https://www.linkedin.com/in/jdoove/#career-2016-nwo"/>
+    <ore:aggregates rdf:resource="https://www.linkedin.com/in/jdoove/#career-2016-ke"/>
+    <ore:aggregates rdf:resource="https://www.linkedin.com/in/jdoove/#career-2022"/>
+    <ore:aggregates rdf:resource="https://www.linkedin.com/in/jdoove/#career-2024"/>
+    <ore:aggregates rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/annotation/1"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/annotation/2"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/annotation/3"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/annotation/4"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/annotation/5"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/annotation/6"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/annotation/7"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/annotation/8"/>
+    <ore:aggregates rdf:resource="https://surf-ori.github.io/incontext/john/annotation/9"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Open_access">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-projects.owl#ResearchTopic"/>
+    <foaf:name>Open access</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Open_science">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-projects.owl#ResearchTopic"/>
+    <foaf:name>Open science</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Enhanced_publication">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-projects.owl#ResearchTopic"/>
+    <foaf:name>Enhanced publications</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Open_research_information">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-projects.owl#ResearchTopic"/>
+    <foaf:name>Open research information</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Persistent_identifier">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-projects.owl#ResearchTopic"/>
+    <foaf:name>Persistent identifiers (PIDs)</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/FAIR_data">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-projects.owl#ResearchTopic"/>
+    <foaf:name>FAIR data and reproducibility</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Research_infrastructure">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-projects.owl#ResearchTopic"/>
+    <foaf:name>Sustainable open science infrastructure</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.surf.nl/">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-agents.owl#Association"/>
+    <foaf:name>SURF</foaf:name>
+    <dcterms:description>The collaborative organisation for IT in Dutch education and research.</dcterms:description>
+    <foaf:homepage rdf:resource="https://www.surf.nl/en/themes/open-science"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.library.universiteitleiden.nl/">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-agents.owl#Department"/>
+    <foaf:name>Leiden University Library</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.universiteitleiden.nl/">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-agents.owl#University"/>
+    <foaf:name>Leiden University</foaf:name>
+    <foaf:member rdf:resource="https://www.library.universiteitleiden.nl/"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.nwo.nl/">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>Dutch Research Council (NWO)</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.openscience.nl/">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>Open Science NL</foaf:name>
+    <dcterms:description>National open science funding programme hosted by NWO.</dcterms:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.knowledge-exchange.info/">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>Knowledge Exchange</foaf:name>
+    <dcterms:description>European partnership of national research-infrastructure organisations (incl. SURF) supporting open scholarship.</dcterms:description>
+    <foaf:member rdf:resource="https://www.surf.nl/"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.universiteitenvannederland.nl/">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-agents.owl#Association"/>
+    <foaf:name>Universities of the Netherlands (UNL)</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.vereniginghogescholen.nl/">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-agents.owl#Association"/>
+    <foaf:name>Netherlands Association of Universities of Applied Sciences (VH)</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.ukb.nl/">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-agents.owl#Association"/>
+    <foaf:name>UKB — Dutch university libraries and the KB</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.kb.nl/">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-agents.owl#Institute"/>
+    <foaf:name>KB, National Library of the Netherlands</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://regieorgaan-sia.nl/">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>Regieorgaan SIA</foaf:name>
+    <dcterms:description>Funder of practice-oriented research at universities of applied sciences.</dcterms:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.utwente.nl/">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-agents.owl#University"/>
+    <foaf:name>University of Twente</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/person/leo-waaijers">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Leo Waaijers</foaf:name>
+    <dcterms:description>Open access pioneer; led the SURF DARE programme and Cream of Science.</dcterms:description>
+    <foaf:workplaceHomepage rdf:resource="https://www.surf.nl/"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/person/marnix-van-bergen">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Marnix van Bergen</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/person/annemiek-van-der-kuil">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Annemiek van der Kuil</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/person/marlon-domingus">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Marlon Domingus</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://doi.org/10.5281/zenodo.19885633">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#ResearchProposal"/>
+    <dcterms:title>BROCCOLI – the Dutch hub for healthy open research information</dcterms:title>
+    <dcterms:issued>2026</dcterms:issued>
+    <dcterms:publisher>Zenodo</dcterms:publisher>
+    <dcterms:abstract>BROCCOLI will bring accessible, reliable and reusable information on Dutch research actors, activities and outputs together in an open infrastructure that facilitates evidence-informed decision-making in the Dutch research system.</dcterms:abstract>
+    <dcterms:creator rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <foaf:fundedBy rdf:resource="https://www.openscience.nl/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_research_information"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://doi.org/10.5281/zenodo.8383405">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#PolicyDocument"/>
+    <dcterms:title>Nota toekomst Nederlandse infrastructuur voor auteursidentifiers</dcterms:title>
+    <dcterms:language>nl</dcterms:language>
+    <dcterms:abstract>On the future of the Digital Author Identifier (DAI), developed in 2005 in the SURF DARE programme and used at all Dutch universities: background, the Dutch DAI infrastructure, the emerging international standards, and recommendations.</dcterms:abstract>
+    <dcterms:creator rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Persistent_identifier"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://doi.org/10.5281/zenodo.5836056">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#Report"/>
+    <dcterms:title>From ORCID Pilot to a PID-centric framework for Research Information</dcterms:title>
+    <dcterms:issued>2022</dcterms:issued>
+    <dcterms:abstract>Outcomes of SURF projects mobilising persistent identifiers in the Netherlands: the ORCID-NL pilot, the move to the ORCID-NL consortium of all research universities, Identifiers for FAIR research information, and work towards a national PID strategy.</dcterms:abstract>
+    <dcterms:creator rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Persistent_identifier"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_research_information"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://doi.org/10.5281/zenodo.18622300">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#Report"/>
+    <dcterms:title>Stakeholder Engagement Plan — national training and community platform for research data professionals (RDNL)</dcterms:title>
+    <dcterms:issued>2026</dcterms:issued>
+    <dcterms:abstract>First deliverable (v1.0, December 2025) of the Open Science NL-funded project for a national training and community platform for research data professionals, 2025–2028.</dcterms:abstract>
+    <dcterms:creator rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <foaf:fundedBy rdf:resource="https://www.openscience.nl/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/FAIR_data"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://zenodo.org/records/15772562">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#PolicyDocument"/>
+    <dcterms:title>SURF Open Research Information (ORI) Program 2025 – 2030</dcterms:title>
+    <dcterms:abstract>Programme within the SURF Innovation Zone Strengthening Open Science, with the ambition that all information about Dutch publicly funded research and its results is openly available and reusable.</dcterms:abstract>
+    <dcterms:publisher>SURF</dcterms:publisher>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_research_information"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://doi.org/10.5281/zenodo.3454688">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#Report"/>
+    <dcterms:title>Open Scholarship and the need for collective action</dcterms:title>
+    <dcterms:issued>2019</dcterms:issued>
+    <dcterms:publisher>Knowledge Exchange</dcterms:publisher>
+    <dcterms:abstract>Knowledge Exchange study on the economic and incentive challenges of the transition to open scholarship, using the KE Open Scholarship Framework of micro, meso and macro levels.</dcterms:abstract>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_science"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.universiteitenvannederland.nl/files/publications/Alternatieve%20platformen%20als%20change%20agents%20van%20het%20publiceren%20versie%201.0.pdf">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#PolicyDocument"/>
+    <dcterms:title>Alternatieve open access platformen als change agents van het publiceren</dcterms:title>
+    <dcterms:language>nl</dcterms:language>
+    <dcterms:publisher>Universiteiten van Nederland</dcterms:publisher>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_access"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.amazon.com/Enhanced-Publications-Research-Repositories-EU-Driver-ebook/dp/B0FTG1DFJ6">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#Book"/>
+    <dcterms:title>Enhanced Publications: Linking Publications and Research Data in Digital Repositories</dcterms:title>
+    <dcterms:issued>2009</dcterms:issued>
+    <dcterms:publisher>Amsterdam University Press (SURF / EU DRIVER)</dcterms:publisher>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Enhanced_publication"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://hdl.handle.net/1854/LU-1942496">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#Report"/>
+    <dcterms:title>Emerging Standards for Enhanced Publications and Repository Technology: Survey on Technology</dcterms:title>
+    <dcterms:issued>2009</dcterms:issued>
+    <dcterms:publisher>DRIVER II / SURFfoundation / Amsterdam University Press</dcterms:publisher>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Enhanced_publication"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.slideserve.com/kairos/challenges-in-data-publishing-enhanced-publications">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#Lecture"/>
+    <dcterms:title>Challenges in Data Publishing: Enhanced Publications</dcterms:title>
+    <dcterms:creator rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Enhanced_publication"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.slideshare.net/dduin/enhanced-publications-by-john-doove">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#Lecture"/>
+    <dcterms:title>Enhanced Publications (slides)</dcterms:title>
+    <dcterms:creator rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Enhanced_publication"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://groups.google.com/g/oai-ore/c/YJzxZarMjs4">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#ContributionToPeriodical"/>
+    <dcterms:title>Resource Maps (edit – store – visualise)</dcterms:title>
+    <dcterms:publisher>OAI-ORE mailing list</dcterms:publisher>
+    <dcterms:abstract>John announces the open-source SURF tools for Enhanced Publications: the ESCAPE resource map editor and repository, and the InContext visualiser.</dcterms:abstract>
+    <dcterms:creator rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Enhanced_publication"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://wiki.surfnet.nl/pages/viewpage.action?pageId=11057404">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#TechnicalDocumentation"/>
+    <dcterms:title>Object model Enhanced Publications</dcterms:title>
+    <dcterms:publisher>SURF Wiki</dcterms:publisher>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Enhanced_publication"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://delta.tudelft.nl/article/een-nationale-etalage-voor-de-wetenschap">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#ContributionToPeriodical"/>
+    <dcterms:title>Een nationale etalage voor de wetenschap</dcterms:title>
+    <dcterms:publisher>Delta (TU Delft)</dcterms:publisher>
+    <dcterms:language>nl</dcterms:language>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_access"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://werkenbij.surf.nl/programmamanager-open-science-john-doove/">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#ContributionToPeriodical"/>
+    <dcterms:title>John vertelt over zijn werk als programmamanager open science bij SURF</dcterms:title>
+    <dcterms:publisher>Werken bij SURF</dcterms:publisher>
+    <dcterms:language>nl</dcterms:language>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_science"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.surf.nl/en/employee-stories/john-doove-open-access-programme-manager-at-surf">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-pubtypes.owl#ContributionToPeriodical"/>
+    <dcterms:title>John Doove, Open Access Programme Manager at SURF</dcterms:title>
+    <dcterms:publisher>SURF.nl</dcterms:publisher>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_access"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/project/cream-of-science">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>Cream of Science — professors in open repositories</foaf:name>
+    <dcterms:description>Getting researchers and professors to put their publications in open repositories (e-prints, DSpace), offering practical facilities to start open access in the Netherlands.</dcterms:description>
+    <swrc:startDate>2005</swrc:startDate>
+    <swrc:carriedOutBy rdf:resource="https://www.surf.nl/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_access"/>
+    <swan:relatedTo rdf:resource="https://delta.tudelft.nl/article/een-nationale-etalage-voor-de-wetenschap"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/project/enhanced-publications">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>Enhanced Publications (SURFshare)</foaf:name>
+    <dcterms:description>Dynamic papers: linking publications to research data, images and other resources with OAI-ORE resource maps.</dcterms:description>
+    <swrc:carriedOutBy rdf:resource="https://www.surf.nl/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Enhanced_publication"/>
+    <escape-projects:outcomeDocument rdf:resource="https://www.amazon.com/Enhanced-Publications-Research-Repositories-EU-Driver-ebook/dp/B0FTG1DFJ6"/>
+    <escape-projects:outcomeDocument rdf:resource="http://hdl.handle.net/1854/LU-1942496"/>
+    <escape-projects:outcomeDocument rdf:resource="https://wiki.surfnet.nl/pages/viewpage.action?pageId=11057404"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://code.google.com/p/surf-escape/">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>ESCAPE — resource map editor and repository</foaf:name>
+    <swrc:carriedOutBy rdf:resource="https://www.utwente.nl/"/>
+    <swan:relatedTo rdf:resource="https://surf-ori.github.io/incontext/john/project/enhanced-publications"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Enhanced_publication"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://github.com/surf-ori/incontext">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>InContext visualiser (the tool you are looking at)</foaf:name>
+    <dcterms:description>Client-side visualiser for Enhanced Publications, originally at code.google.com/p/surf-incontext, revived on GitHub Pages.</dcterms:description>
+    <swrc:carriedOutBy rdf:resource="https://www.surf.nl/"/>
+    <swan:relatedTo rdf:resource="https://surf-ori.github.io/incontext/john/project/enhanced-publications"/>
+    <swan:relatedTo rdf:resource="http://code.google.com/p/surf-escape/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Enhanced_publication"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/project/orcid-nl">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>From DAI to ORCID-NL: author identifiers for the Netherlands</foaf:name>
+    <swrc:carriedOutBy rdf:resource="https://www.surf.nl/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Persistent_identifier"/>
+    <escape-projects:outcomeDocument rdf:resource="https://doi.org/10.5281/zenodo.8383405"/>
+    <escape-projects:outcomeDocument rdf:resource="https://doi.org/10.5281/zenodo.5836056"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.hbo-kennisbank.nl/">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>HBO Kennisbank</foaf:name>
+    <dcterms:description>National repository of research output of Dutch universities of applied sciences.</dcterms:description>
+    <swrc:carriedOutBy rdf:resource="https://www.surf.nl/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_access"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.surf.nl/en/services/surfsharekit">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>SURFsharekit</foaf:name>
+    <dcterms:description>Repository service for sharing research outputs and educational resources.</dcterms:description>
+    <swrc:carriedOutBy rdf:resource="https://www.surf.nl/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Research_infrastructure"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://publinova.nl/en">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>Publinova</foaf:name>
+    <dcterms:description>The national platform for open practice-oriented research: a collaboration between the Dutch universities of applied sciences, the Association of Universities of Applied Sciences, SIA and SURF.</dcterms:description>
+    <swrc:carriedOutBy rdf:resource="https://www.surf.nl/"/>
+    <swrc:carriedOutBy rdf:resource="https://www.vereniginghogescholen.nl/"/>
+    <foaf:fundedBy rdf:resource="https://regieorgaan-sia.nl/"/>
+    <swan:relatedTo rdf:resource="https://www.hbo-kennisbank.nl/"/>
+    <swan:relatedTo rdf:resource="https://www.surf.nl/en/services/surfsharekit"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_access"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Research_infrastructure"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.surf.nl/over/wat-surf-doet/onze-focus-voor-2022-2027/innovatiezones-surf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>SURF Innovation Zone Open Science</foaf:name>
+    <dcterms:description>Innovation zone accepted by the SURF members' board, running programmes on reproducibility (FAIR data), open scholarly communication and open research information; connected to the Research Infrastructure innovation zone.</dcterms:description>
+    <swrc:carriedOutBy rdf:resource="https://www.surf.nl/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_science"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/FAIR_data"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_research_information"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/project/open-research-information">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>SURF Open Research Information programme</foaf:name>
+    <dcterms:description>Beyond the PDF: rich, open information about research, making research reproducible.</dcterms:description>
+    <swrc:startDate>2015</swrc:startDate>
+    <swrc:carriedOutBy rdf:resource="https://www.surf.nl/"/>
+    <swan:relatedTo rdf:resource="https://www.surf.nl/over/wat-surf-doet/onze-focus-voor-2022-2027/innovatiezones-surf"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_research_information"/>
+    <escape-projects:outcomeDocument rdf:resource="https://zenodo.org/records/15772562"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/project/broccoli">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>BROCCOLI — Dutch hub for open research information</foaf:name>
+    <swrc:carriedOutBy rdf:resource="https://www.surf.nl/"/>
+    <foaf:fundedBy rdf:resource="https://www.openscience.nl/"/>
+    <swan:relatedTo rdf:resource="https://surf-ori.github.io/incontext/john/project/open-research-information"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_research_information"/>
+    <escape-projects:outcomeDocument rdf:resource="https://doi.org/10.5281/zenodo.19885633"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/project/rdnl">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>National training and community platform for research data professionals</foaf:name>
+    <swrc:startDate>2025</swrc:startDate>
+    <foaf:fundedBy rdf:resource="https://www.openscience.nl/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/FAIR_data"/>
+    <escape-projects:outcomeDocument rdf:resource="https://doi.org/10.5281/zenodo.18622300"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/project/leergang-open-science">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>Leergang Open Science</foaf:name>
+    <dcterms:description>Learning track securing future-proof open science knowledge and practices.</dcterms:description>
+    <swrc:carriedOutBy rdf:resource="https://www.surf.nl/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Open_science"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/project/unl-integrative-infrastructures">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>UNL Strategic Plan Integrative Infrastructures</foaf:name>
+    <swrc:carriedOutBy rdf:resource="https://www.universiteitenvannederland.nl/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Research_infrastructure"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/project/public-values-infrastructure">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <foaf:name>Public-value-driven infrastructure pilots (e.g. Nextcloud)</foaf:name>
+    <swrc:carriedOutBy rdf:resource="https://www.surf.nl/"/>
+    <dcterms:subject rdf:resource="https://en.wikipedia.org/wiki/Research_infrastructure"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.linkedin.com/in/jdoove/#career-2006">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-events.owl#Event"/>
+    <dcterms:title>2006–2009 · Content manager, Leiden University Library</dcterms:title>
+    <escape-projects:startDate>2006</escape-projects:startDate>
+    <escape-projects:endDate>2009</escape-projects:endDate>
+    <swan:relatedTo rdf:resource="https://www.library.universiteitleiden.nl/"/>
+    <swan:relatedTo rdf:resource="https://en.wikipedia.org/wiki/Open_access"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.linkedin.com/in/jdoove/#career-2009">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-events.owl#Event"/>
+    <dcterms:title>2009 · Project coordinator, SURFfoundation</dcterms:title>
+    <dcterms:description>Inspired by Leo Waaijers, John starts open science in the Netherlands at SURF and helps initiate the Dutch open access movement.</dcterms:description>
+    <escape-projects:startDate>2009</escape-projects:startDate>
+    <swan:relatedTo rdf:resource="https://www.surf.nl/"/>
+    <swan:relatedTo rdf:resource="https://surf-ori.github.io/incontext/john/person/leo-waaijers"/>
+    <swan:relatedTo rdf:resource="https://surf-ori.github.io/incontext/john/project/cream-of-science"/>
+    <swan:relatedTo rdf:resource="https://surf-ori.github.io/incontext/john/project/enhanced-publications"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.linkedin.com/in/jdoove/#career-2015">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-events.owl#Event"/>
+    <dcterms:title>2015 · Programme manager Open Science, SURF</dcterms:title>
+    <dcterms:description>Starts Open Research Information: beyond the PDF, rich information, reproducible data — and dynamic papers: Enhanced Publications.</dcterms:description>
+    <escape-projects:startDate>2015</escape-projects:startDate>
+    <swan:relatedTo rdf:resource="https://www.surf.nl/"/>
+    <swan:relatedTo rdf:resource="https://surf-ori.github.io/incontext/john/project/open-research-information"/>
+    <swan:relatedTo rdf:resource="https://surf-ori.github.io/incontext/john/project/orcid-nl"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.linkedin.com/in/jdoove/#career-2016-nwo">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-events.owl#Event"/>
+    <dcterms:title>2016–2017 · Senior Policy Officer, NWO</dcterms:title>
+    <escape-projects:startDate>2016</escape-projects:startDate>
+    <escape-projects:endDate>2017</escape-projects:endDate>
+    <swan:relatedTo rdf:resource="https://www.nwo.nl/"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.linkedin.com/in/jdoove/#career-2016-ke">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-events.owl#Event"/>
+    <dcterms:title>2016–2022 · Steering group member, Knowledge Exchange</dcterms:title>
+    <dcterms:description>European collaboration on open science: preprints, open access monographs, and the micro–meso–macro levels of open scholarship.</dcterms:description>
+    <escape-projects:startDate>2016</escape-projects:startDate>
+    <escape-projects:endDate>2022</escape-projects:endDate>
+    <swan:relatedTo rdf:resource="https://www.knowledge-exchange.info/"/>
+    <swan:relatedTo rdf:resource="https://doi.org/10.5281/zenodo.3454688"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.linkedin.com/in/jdoove/#career-2022">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-events.owl#Event"/>
+    <dcterms:title>2022–2024 · Team lead innovation in education, SURF</dcterms:title>
+    <dcterms:description>Aligning research and education on shared infrastructural needs.</dcterms:description>
+    <escape-projects:startDate>2022</escape-projects:startDate>
+    <escape-projects:endDate>2024</escape-projects:endDate>
+    <swan:relatedTo rdf:resource="https://www.surf.nl/"/>
+    <swan:relatedTo rdf:resource="https://www.surf.nl/en/services/surfsharekit"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.linkedin.com/in/jdoove/#career-2024">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-events.owl#Event"/>
+    <dcterms:title>2024 – now · Team lead SURF Open Science</dcterms:title>
+    <dcterms:description>Lead of the SURF Innovation Zone Open Science; steering group UNL Integrative Infrastructures; strategic stakeholder management (UKB, KB, SHB, DCC-po, VH, UNL, NWO/OSNL); business development and coalition forming; NWO OSC advisory panel.</dcterms:description>
+    <escape-projects:startDate>2024</escape-projects:startDate>
+    <swan:relatedTo rdf:resource="https://www.surf.nl/"/>
+    <swan:relatedTo rdf:resource="https://www.surf.nl/over/wat-surf-doet/onze-focus-voor-2022-2027/innovatiezones-surf"/>
+    <swan:relatedTo rdf:resource="https://surf-ori.github.io/incontext/john/project/unl-integrative-infrastructures"/>
+    <swan:relatedTo rdf:resource="https://www.universiteitenvannederland.nl/"/>
+    <swan:relatedTo rdf:resource="https://www.vereniginghogescholen.nl/"/>
+    <swan:relatedTo rdf:resource="https://www.ukb.nl/"/>
+    <swan:relatedTo rdf:resource="https://www.kb.nl/"/>
+    <swan:relatedTo rdf:resource="https://www.openscience.nl/"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://orcid.org/0000-0001-8217-2217">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>John Doove</foaf:name>
+    <foaf:title>Team lead Open Science, SURF</foaf:title>
+    <dcterms:description>John Doove embodies open science principles and integrates them into every conversation and context. He co-initiated the open science movement in the Netherlands at SURF, alongside Leo Waaijers. Since 2006 he has driven open access and the development of sustainable open science infrastructures such as Publinova. He now leads an innovation team of experts at SURF committed to the long-term future of open science — a natural connector across strategic, operational, technical and organisational levels.</dcterms:description>
+    <foaf:plan>I'm coordinating and aligning innovative activities that will facilitate the transition to open science nationally as well as internationally.</foaf:plan>
+    <dcterms:abstract>Specialties: promoting (international) collaboration, combining innovative ideas, motivating people to innovate.</dcterms:abstract>
+    <foaf:homepage rdf:resource="https://www.linkedin.com/in/jdoove/"/>
+    <foaf:workplaceHomepage rdf:resource="https://www.surf.nl/"/>
+    <foaf:knows rdf:resource="https://surf-ori.github.io/incontext/john/person/leo-waaijers"/>
+    <foaf:knows rdf:resource="https://surf-ori.github.io/incontext/john/person/marnix-van-bergen"/>
+    <foaf:knows rdf:resource="https://surf-ori.github.io/incontext/john/person/annemiek-van-der-kuil"/>
+    <foaf:knows rdf:resource="https://surf-ori.github.io/incontext/john/person/marlon-domingus"/>
+    <foaf:topic_interest rdf:resource="https://en.wikipedia.org/wiki/Open_science"/>
+    <foaf:topic_interest rdf:resource="https://en.wikipedia.org/wiki/Open_access"/>
+    <foaf:topic_interest rdf:resource="https://en.wikipedia.org/wiki/Enhanced_publication"/>
+    <foaf:topic_interest rdf:resource="https://en.wikipedia.org/wiki/Open_research_information"/>
+    <foaf:topic_interest rdf:resource="https://en.wikipedia.org/wiki/Persistent_identifier"/>
+    <foaf:topic_interest rdf:resource="https://en.wikipedia.org/wiki/Research_infrastructure"/>
+    <swan:relatedTo rdf:resource="https://www.linkedin.com/in/jdoove/#career-2006"/>
+    <swan:relatedTo rdf:resource="https://www.linkedin.com/in/jdoove/#career-2009"/>
+    <swan:relatedTo rdf:resource="https://www.linkedin.com/in/jdoove/#career-2015"/>
+    <swan:relatedTo rdf:resource="https://www.linkedin.com/in/jdoove/#career-2016-nwo"/>
+    <swan:relatedTo rdf:resource="https://www.linkedin.com/in/jdoove/#career-2016-ke"/>
+    <swan:relatedTo rdf:resource="https://www.linkedin.com/in/jdoove/#career-2022"/>
+    <swan:relatedTo rdf:resource="https://www.linkedin.com/in/jdoove/#career-2024"/>
+    <foaf:currentProject rdf:resource="https://www.surf.nl/over/wat-surf-doet/onze-focus-voor-2022-2027/innovatiezones-surf"/>
+    <foaf:currentProject rdf:resource="https://surf-ori.github.io/incontext/john/project/open-research-information"/>
+    <foaf:currentProject rdf:resource="https://surf-ori.github.io/incontext/john/project/broccoli"/>
+    <foaf:currentProject rdf:resource="https://surf-ori.github.io/incontext/john/project/rdnl"/>
+    <foaf:currentProject rdf:resource="https://surf-ori.github.io/incontext/john/project/leergang-open-science"/>
+    <foaf:currentProject rdf:resource="https://surf-ori.github.io/incontext/john/project/unl-integrative-infrastructures"/>
+    <foaf:currentProject rdf:resource="https://surf-ori.github.io/incontext/john/project/public-values-infrastructure"/>
+    <foaf:pastProject rdf:resource="https://surf-ori.github.io/incontext/john/project/cream-of-science"/>
+    <foaf:pastProject rdf:resource="https://surf-ori.github.io/incontext/john/project/enhanced-publications"/>
+    <foaf:pastProject rdf:resource="https://github.com/surf-ori/incontext"/>
+    <foaf:pastProject rdf:resource="https://surf-ori.github.io/incontext/john/project/orcid-nl"/>
+    <foaf:pastProject rdf:resource="https://www.hbo-kennisbank.nl/"/>
+    <foaf:pastProject rdf:resource="https://www.surf.nl/en/services/surfsharekit"/>
+    <foaf:pastProject rdf:resource="https://publinova.nl/en"/>
+    <swan:relatedTo rdf:resource="https://www.universiteitenvannederland.nl/files/publications/Alternatieve%20platformen%20als%20change%20agents%20van%20het%20publiceren%20versie%201.0.pdf"/>
+    <swan:relatedTo rdf:resource="https://werkenbij.surf.nl/programmamanager-open-science-john-doove/"/>
+    <swan:relatedTo rdf:resource="https://www.surf.nl/en/employee-stories/john-doove-open-access-programme-manager-at-surf"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/annotation/1">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-annotations.owl#RelationAnnotation"/>
+    <dcterms:description>Leo Waaijers inspired John to start working on open science at SURF in 2009.</dcterms:description>
+    <escape-annotations:subject rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <escape-annotations:predicate rdf:resource="http://xmlns.com/foaf/0.1/knows"/>
+    <escape-annotations:object rdf:resource="https://surf-ori.github.io/incontext/john/person/leo-waaijers"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/annotation/2">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-annotations.owl#RelationAnnotation"/>
+    <dcterms:description>Together they initiated the Dutch open access movement.</dcterms:description>
+    <escape-annotations:subject rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <escape-annotations:predicate rdf:resource="http://xmlns.com/foaf/0.1/knows"/>
+    <escape-annotations:object rdf:resource="https://surf-ori.github.io/incontext/john/person/marnix-van-bergen"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/annotation/3">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-annotations.owl#RelationAnnotation"/>
+    <dcterms:description>Together they initiated the Dutch open access movement.</dcterms:description>
+    <escape-annotations:subject rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <escape-annotations:predicate rdf:resource="http://xmlns.com/foaf/0.1/knows"/>
+    <escape-annotations:object rdf:resource="https://surf-ori.github.io/incontext/john/person/annemiek-van-der-kuil"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/annotation/4">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-annotations.owl#RelationAnnotation"/>
+    <dcterms:description>Together they initiated the Dutch open access movement.</dcterms:description>
+    <escape-annotations:subject rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <escape-annotations:predicate rdf:resource="http://xmlns.com/foaf/0.1/knows"/>
+    <escape-annotations:object rdf:resource="https://surf-ori.github.io/incontext/john/person/marlon-domingus"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/annotation/5">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-annotations.owl#RelationAnnotation"/>
+    <dcterms:description>John was an initiator of Publinova, the repository for applied sciences.</dcterms:description>
+    <escape-annotations:subject rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <escape-annotations:predicate rdf:resource="http://xmlns.com/foaf/0.1/pastProject"/>
+    <escape-annotations:object rdf:resource="https://publinova.nl/en"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/annotation/6">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-annotations.owl#RelationAnnotation"/>
+    <dcterms:description>Asking researchers to add their publications to repositories: starting open access by providing practical facilities.</dcterms:description>
+    <escape-annotations:subject rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <escape-annotations:predicate rdf:resource="http://xmlns.com/foaf/0.1/pastProject"/>
+    <escape-annotations:object rdf:resource="https://surf-ori.github.io/incontext/john/project/cream-of-science"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/annotation/7">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-annotations.owl#RelationAnnotation"/>
+    <dcterms:description>John initiated the SURF Open Science Innovation Zone, gaining strategic buy-in from universities and universities of applied sciences, and connected it to the Research Infrastructure zone.</dcterms:description>
+    <escape-annotations:subject rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <escape-annotations:predicate rdf:resource="http://xmlns.com/foaf/0.1/currentProject"/>
+    <escape-annotations:object rdf:resource="https://www.surf.nl/over/wat-surf-doet/onze-focus-voor-2022-2027/innovatiezones-surf"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/annotation/8">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-annotations.owl#RelationAnnotation"/>
+    <dcterms:description>Supervision of the UNL study on alternative open access platforms.</dcterms:description>
+    <escape-annotations:subject rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <escape-annotations:predicate rdf:resource="http://swan.mindinformatics.org/ontologies/1.2/discourse-relationships/relatedTo"/>
+    <escape-annotations:object rdf:resource="https://www.universiteitenvannederland.nl/files/publications/Alternatieve%20platformen%20als%20change%20agents%20van%20het%20publiceren%20versie%201.0.pdf"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surf-ori.github.io/incontext/john/annotation/9">
+    <rdf:type rdf:resource="http://purl.utwente.nl/ns/escape-annotations.owl#RelationAnnotation"/>
+    <dcterms:description>Making dynamic papers: John presented and promoted Enhanced Publications internationally.</dcterms:description>
+    <escape-annotations:subject rdf:resource="https://orcid.org/0000-0001-8217-2217"/>
+    <escape-annotations:predicate rdf:resource="http://xmlns.com/foaf/0.1/pastProject"/>
+    <escape-annotations:object rdf:resource="https://surf-ori.github.io/incontext/john/project/enhanced-publications"/>
+  </rdf:Description>
+
+</rdf:RDF>
