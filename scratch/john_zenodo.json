@@ -1,0 +1,88 @@
+{
+  "source": "Zenodo API, query creators.name:\"Doove, John\", 4 records. Extra items below are from search snippets only.",
+  "records": [
+    {
+      "id": 18622300, "doi": "10.5281/zenodo.18622300",
+      "title": "Stakeholder Engagement Plan", "date": "2026-02-12",
+      "type": "Project deliverable", "community": "rdnl",
+      "context": "Deliverable of RDNL project 'Nationaal training- en communityplatform voor researchdataprofessionals' (dossier 2023120), funded by Open Science NL 2025-2028. RDNL partners: 4TU.ResearchData, DANS, SURF, Health-RI.",
+      "creators": [
+        {"name": "van Leersum, Nida", "orcid": "0009-0001-8479-122X"},
+        {"name": "van Gelder, Celia W.G.", "orcid": "0000-0002-0223-2329"},
+        {"name": "van den Berk, Michelle", "affiliation": "DANS", "orcid": "0000-0002-1218-8448"},
+        {"name": "Doove, John", "affiliation": "SURF", "orcid": "0000-0001-8217-2217"},
+        {"name": "Bangert, Daniel", "affiliation": "4TU.ResearchData", "orcid": "0000-0003-4981-2870"}
+      ]
+    },
+    {
+      "id": 21526773, "doi": "10.5281/zenodo.21526773",
+      "title": "Organizing research as a commons", "date": "2026-07-24", "version": "1.1",
+      "type": "Report", "keywords": ["Commons", "Research infrastructure", "Collective action"],
+      "creators": [
+        {"name": "Waegemaekers, Eileen", "affiliation": "SURF", "orcid": "0009-0005-5749-4886"},
+        {"name": "Sesink, Laurents", "affiliation": "SURF", "orcid": "0000-0001-7880-5413"},
+        {"name": "Witkowska, Iza", "affiliation": "Bibliotheek Utrecht", "orcid": "0000-0002-7914-3957"},
+        {"name": "Hoogerwerf, Maarten", "affiliation": "SURF", "orcid": "0000-0003-1498-2052"},
+        {"name": "van den Berg, Ymke", "orcid": "0000-0002-8262-9368"},
+        {"name": "Doove, John", "affiliation": "SURF", "orcid": "0000-0001-8217-2217"},
+        {"name": "Bijsterbosch, Magchiel", "orcid": "0000-0002-5129-8754"},
+        {"name": "Oonk, Raymond"}
+      ]
+    },
+    {
+      "id": 5836056, "doi": "10.5281/zenodo.5836056",
+      "title": "From ORCID Pilot to a PID-centric framework for Research Information", "date": "2022-01-15",
+      "type": "Report", "communities": ["surf", "open-infra"],
+      "creators": [
+        {"name": "Tatum, Clifford", "affiliation": "SURF", "orcid": "0000-0002-2212-3197"},
+        {"name": "Doove, John", "affiliation": "SURF", "orcid": "0000-0001-8217-2217"},
+        {"name": "Bijsterbosch, Magchiel", "affiliation": "SURF", "orcid": "0000-0002-5129-8754"},
+        {"name": "Akcaova, Gül", "affiliation": "SURF", "orcid": "0000-0001-9060-4518"},
+        {"name": "Slot, Pim", "affiliation": "SURF", "orcid": "0000-0002-5784-8163"},
+        {"name": "Bouwhuis, Maurice", "affiliation": "SURF", "orcid": "0000-0002-1288-657X"},
+        {"name": "Veenstra, Nick", "affiliation": "TU Eindhoven", "orcid": "0000-0002-3303-347X"},
+        {"name": "Vanderfeesten, Maurice", "affiliation": "Vrije Universiteit Amsterdam", "orcid": "0000-0001-6397-4759"},
+        {"name": "van den Hoogen, Henk", "affiliation": "Maastricht University", "orcid": "0000-0002-7257-3209"}
+      ]
+    },
+    {
+      "id": 19885633, "doi": "10.5281/zenodo.19885633",
+      "title": "BROCCOLI – the Dutch hub for healthy open research information", "date": "2026-04-29",
+      "type": "Proposal",
+      "grant": {"funder": "Open Science NL", "title": "Open Science Infrastructure round 2024", "code": "500.040.2446"},
+      "creators": [
+        {"name": "Doove, John", "affiliation": "SURF", "orcid": "0000-0001-8217-2217"},
+        {"name": "van Eck, Nees Jan", "affiliation": "Leiden University", "orcid": "0000-0001-8448-4521"},
+        {"name": "Waegemaekers, Eileen", "affiliation": "SURF", "orcid": "0009-0005-5749-4886"},
+        {"name": "Schalken, Arjan", "affiliation": "UNL/KB library consortium", "orcid": "0000-0002-2406-846X"},
+        {"name": "Chan, Tung Tung", "affiliation": "Erasmus University Rotterdam", "orcid": "0000-0003-0732-3315"},
+        {"name": "van Leeuwen, Thed N", "affiliation": "Leiden University", "orcid": "0000-0001-7238-6289"},
+        {"name": "Grijpma, Menno", "orcid": "0009-0004-6723-8133"},
+        {"name": "Huidiu, Cristina Alina", "orcid": "0000-0002-1242-1123"},
+        {"name": "Koperdraad, Maaike"},
+        {"name": "Wahls van Gils, Naomi", "affiliation": "Delft University of Technology", "orcid": "0000-0003-4552-7722"},
+        {"name": "visser, martijn", "affiliation": "Universiteit Leiden", "orcid": "0000-0001-5987-2389"},
+        {"name": "van den Boomen, Bram", "affiliation": "Leiden University", "orcid": "0009-0005-5127-1200"}
+      ]
+    }
+  ],
+  "unverified_from_search_snippets": [
+    {
+      "id": 8383405, "doi": "10.5281/zenodo.8383405",
+      "title": "Nota toekomst Nederlandse infrastructuur voor auteursidentifiers",
+      "creators_names_only": ["John Doove (SURF)", "Frits van Latum (TUDelft)", "Karin Lodder (KB)", "Martin van Muyen (OCLC)", "Maarten Steenhuis (EUR)"],
+      "note": "No ORCIDs and no date available. Snippet says it relates to the DAI case study."
+    },
+    {
+      "doi": "10.5281/zenodo.7327505",
+      "title": "Case Study Adoption of the DAI in the Netherlands and subsequent superseding by ORCID/ISNI",
+      "note": "Title and DOI only, from a related-to line in the snippet."
+    }
+  ],
+  "orcid_record": {
+    "orcid": "0000-0001-8217-2217", "works": 0,
+    "employment": "SURF, Utrecht, NL (added 2023-06-23)",
+    "keywords": ["open science"], "country": "Netherlands",
+    "surf_identifiers": {"ROR": "https://ror.org/009vhk114", "ISNI": "0000000406216574", "GRID": "grid.425959.6"}
+  }
+}
